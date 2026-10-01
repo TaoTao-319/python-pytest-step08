@@ -71,8 +71,8 @@
   },
   {
     "path": "docs/GitHub发布说明.md",
-    "sha256": "3829e547d5eae48dbf149a7f038bc0833c0936059dffcaf80caaa567a09e6f49",
-    "bytes": 1299
+    "sha256": "3db12ca3ec7039c10325f50b1af47ecdd9f1539cb71561556579023a5ddd15b5",
+    "bytes": 1669
   },
   {
     "path": "docs/source_inventory.csv",
@@ -91,8 +91,8 @@
   },
   {
     "path": "docs/成果清单.md",
-    "sha256": "5fb6b2f47e96582cc5c6367677e639edcf10d81194451c86fc006e74aaf9ed07",
-    "bytes": 1746
+    "sha256": "de6eeac74f9bd46baeb29a5bd43d124b2efd499abfabf8fd12de338d74150c4c",
+    "bytes": 1700
   },
   {
     "path": "docs/来源与改动.md",
@@ -131,8 +131,8 @@
   },
   {
     "path": "README.md",
-    "sha256": "2cd6298bf5d4d38f8b43ead14d32ba11338168722c73e1d653817cdd18483274",
-    "bytes": 4954
+    "sha256": "9acfefe2591604c376eeca9677b231932c06fa6453dfcdd7ce3f8bf5fb18ec2b",
+    "bytes": 4971
   },
   {
     "path": "requirements.txt",

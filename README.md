@@ -98,4 +98,4 @@ powershell -ExecutionPolicy Bypass -File tools/render_terminal.ps1
 - [来源与改动说明](docs/来源与改动.md)
 - [GitHub 发布操作](docs/GitHub发布说明.md)
 
-远程 GitHub 发布尚未执行。本地成果包含 Git 提交与可分享压缩包，发布后可在此补充实际仓库链接。
+项目已发布到 [GitHub 仓库](https://github.com/TaoTao-319/python-pytest-step08)，默认使用 `main` 分支。本地另有可分享压缩包。
