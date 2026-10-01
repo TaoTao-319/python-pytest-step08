@@ -1,0 +1,9 @@
+{
+  "source_commit": "22a900d2e10180f3214352056d0ce2eac5c4e911",
+  "method": "local_git_clone_and_fresh_venv",
+  "dependencies_installed_offline": true,
+  "tests": 45,
+  "all_tests_passed": true,
+  "demo_output": "Phone validation: True\nPassword validation: True\nCart total: 16.50",
+  "github_clone_verified": false
+}

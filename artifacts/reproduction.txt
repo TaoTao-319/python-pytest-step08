@@ -1,0 +1,47 @@
+> git rev-parse HEAD
+22a900d2e10180f3214352056d0ce2eac5c4e911
+
+Exit code: 0
+
+> git clone --no-hardlinks F:\000\26 10 02 Step08 F:\000\26 10 02 Step08\.verification\fresh-clone
+Cloning into 'F:\000\26 10 02 Step08\.verification\fresh-clone'...
+done.
+
+Exit code: 0
+
+> F:\000\26 10 02 Step08\.venv\Scripts\python.exe -m venv .venv
+
+Exit code: 0
+
+> F:\000\26 10 02 Step08\.verification\fresh-clone\.venv\Scripts\python.exe -m pip install --no-index --find-links F:\000\26 10 02 Step08\.verification\wheels -r requirements.txt
+Looking in links: f:\000\26 10 02 Step08\.verification\wheels
+Processing F:\000\26 10 02 Step08\.verification\wheels\pytest-9.1.1-py3-none-any.whl (from -r requirements.txt (line 1))
+Processing F:\000\26 10 02 Step08\.verification\wheels\colorama-0.4.6-py2.py3-none-any.whl (from pytest==9.1.1->-r requirements.txt (line 1))
+Processing F:\000\26 10 02 Step08\.verification\wheels\iniconfig-2.3.0-py3-none-any.whl (from pytest==9.1.1->-r requirements.txt (line 1))
+Processing F:\000\26 10 02 Step08\.verification\wheels\packaging-26.3-py3-none-any.whl (from pytest==9.1.1->-r requirements.txt (line 1))
+Processing F:\000\26 10 02 Step08\.verification\wheels\pluggy-1.6.0-py3-none-any.whl (from pytest==9.1.1->-r requirements.txt (line 1))
+Processing F:\000\26 10 02 Step08\.verification\wheels\pygments-2.21.0-py3-none-any.whl (from pytest==9.1.1->-r requirements.txt (line 1))
+Installing collected packages: pygments, pluggy, packaging, iniconfig, colorama, pytest
+
+Successfully installed colorama-0.4.6 iniconfig-2.3.0 packaging-26.3 pluggy-1.6.0 pygments-2.21.0 pytest-9.1.1
+
+Exit code: 0
+
+> F:\000\26 10 02 Step08\.verification\fresh-clone\.venv\Scripts\python.exe -m pytest -q --junitxml=artifacts/fresh-tests.xml
+.............................................                            [100%]
+============================== warnings summary ===============================
+.venv\Lib\site-packages\_pytest\cacheprovider.py:469
+  F:\000\26 10 02 Step08\.verification\fresh-clone\.venv\Lib\site-packages\_pytest\cacheprovider.py:469: PytestCacheWarning: could not create cache path F:\000\26 10 02 Step08\.verification\fresh-clone\.pytest_cache\v\cache\nodeids: [WinError 5] 拒绝访问。: 'F:\\000\\26 10 02 Step08\\.verification\\fresh-clone\\pytest-cache-files-68n1qvco' -> 'F:\\000\\26 10 02 Step08\\.verification\\fresh-clone\\.pytest_cache'
+    config.cache.set("cache/nodeids", sorted(self.cached_nodeids))
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+45 passed, 1 warning in 0.14s
+
+Exit code: 0
+
+> F:\000\26 10 02 Step08\.verification\fresh-clone\.venv\Scripts\python.exe demo.py
+Phone validation: True
+Password validation: True
+Cart total: 16.50
+
+Exit code: 0

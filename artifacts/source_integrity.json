@@ -1,0 +1,72 @@
+{
+  "files_checked": 11,
+  "all_original_files_unchanged": true,
+  "files": [
+    {
+      "relative_path": "src\\qa_utils\\__init__.py",
+      "unchanged": true,
+      "original_sha256": "5DA72D069BFDF20AC9B51458D6444AB24A8578F2BFB4D3C84C20FA3528BB818F",
+      "verified_sha256": "5DA72D069BFDF20AC9B51458D6444AB24A8578F2BFB4D3C84C20FA3528BB818F"
+    },
+    {
+      "relative_path": "src\\qa_utils\\cart.py",
+      "unchanged": true,
+      "original_sha256": "36E902127B0F63686037352BAE03C2122814604307AEDAE26D03ABD4DC31F0ED",
+      "verified_sha256": "36E902127B0F63686037352BAE03C2122814604307AEDAE26D03ABD4DC31F0ED"
+    },
+    {
+      "relative_path": "src\\qa_utils\\validators.py",
+      "unchanged": true,
+      "original_sha256": "F189CDAF2C28217361557A3383062832CEE3E7AB1340C2B55C4AFAFC9FF5D8B1",
+      "verified_sha256": "F189CDAF2C28217361557A3383062832CEE3E7AB1340C2B55C4AFAFC9FF5D8B1"
+    },
+    {
+      "relative_path": "tests\\conftest.py",
+      "unchanged": true,
+      "original_sha256": "A0C02C831172EF4E7BB7758368D105C843B5E563030ED19CE86FB4FE18605AC8",
+      "verified_sha256": "A0C02C831172EF4E7BB7758368D105C843B5E563030ED19CE86FB4FE18605AC8"
+    },
+    {
+      "relative_path": "tests\\test_cart_edge_cases.py",
+      "unchanged": true,
+      "original_sha256": "81DB2CB952C42541D1B9F86EC9EEB37957B55C051E4648A67D536DE39760F4BE",
+      "verified_sha256": "81DB2CB952C42541D1B9F86EC9EEB37957B55C051E4648A67D536DE39760F4BE"
+    },
+    {
+      "relative_path": "tests\\test_cart.py",
+      "unchanged": true,
+      "original_sha256": "33D071D20E5CBE4B3B5707A48D12001B2572924A7DB8F952D8AF55C8AC6EA431",
+      "verified_sha256": "33D071D20E5CBE4B3B5707A48D12001B2572924A7DB8F952D8AF55C8AC6EA431"
+    },
+    {
+      "relative_path": "tests\\test_validators.py",
+      "unchanged": true,
+      "original_sha256": "D43BEF0CFF74B8F1703B6E60D216873A3B2BFA031191B0539B4E79FD2FF10225",
+      "verified_sha256": "D43BEF0CFF74B8F1703B6E60D216873A3B2BFA031191B0539B4E79FD2FF10225"
+    },
+    {
+      "relative_path": "README.md",
+      "unchanged": true,
+      "original_sha256": "196E62A5ED80F594D22B9B374779C57B8A2378FCAFA8F88ECFCFA55BA985A868",
+      "verified_sha256": "196E62A5ED80F594D22B9B374779C57B8A2378FCAFA8F88ECFCFA55BA985A868"
+    },
+    {
+      "relative_path": "requirements.txt",
+      "unchanged": true,
+      "original_sha256": "93C4AB5F175D24229E46EC70A8ECAEB6DB8B36E3F54D8005808044C060ACBC92",
+      "verified_sha256": "93C4AB5F175D24229E46EC70A8ECAEB6DB8B36E3F54D8005808044C060ACBC92"
+    },
+    {
+      "relative_path": "pytest.ini",
+      "unchanged": true,
+      "original_sha256": "0C4E99F0214AA22B315FDF377D676D95DF8E5D23E8533797F2F16B88BA9F8676",
+      "verified_sha256": "0C4E99F0214AA22B315FDF377D676D95DF8E5D23E8533797F2F16B88BA9F8676"
+    },
+    {
+      "relative_path": ".gitignore",
+      "unchanged": true,
+      "original_sha256": "E67C2B6DA097292CA33D066A1E744DB1DEAC32FFE63D5B602A04CBAFB59CE391",
+      "verified_sha256": "E67C2B6DA097292CA33D066A1E744DB1DEAC32FFE63D5B602A04CBAFB59CE391"
+    }
+  ]
+}
