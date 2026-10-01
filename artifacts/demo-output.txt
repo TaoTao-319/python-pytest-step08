@@ -1,0 +1,7 @@
+> python demo.py
+
+Phone validation: True
+Password validation: True
+Cart total: 16.50
+
+Exit code: 0

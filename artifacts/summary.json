@@ -1,0 +1,11 @@
+{
+  "python_version": "3.14.4",
+  "platform": "Windows",
+  "pytest_version": "9.1.1",
+  "tests": 45,
+  "passed": 45,
+  "normal_suite_exit_code": 0,
+  "failure_example_exit_code": 1,
+  "failure_example_behaved_as_expected": true,
+  "demo_exit_code": 0
+}

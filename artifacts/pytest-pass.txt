@@ -1,0 +1,60 @@
+> python -m pytest -v --color=no --junitxml=artifacts/tests.xml
+
+============================= test session starts =============================
+platform win32 -- Python 3.14.4, pytest-9.1.1, pluggy-1.6.0 -- F:\000\26 10 02 Step08\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: F:\000\26 10 02 Step08
+configfile: pytest.ini
+testpaths: tests
+collecting ... collected 45 items
+
+tests/test_cart.py::test_total_after_changing_quantity[zero_quantity] PASSED [  2%]
+tests/test_cart.py::test_total_after_changing_quantity[one_item] PASSED  [  4%]
+tests/test_cart.py::test_total_after_changing_quantity[three_items] PASSED [  6%]
+tests/test_cart.py::test_empty_cart PASSED                               [  8%]
+tests/test_cart.py::test_total_after_adding_item PASSED                  [ 11%]
+tests/test_cart.py::test_total_after_removing_item PASSED                [ 13%]
+tests/test_cart.py::test_negative_quantity_is_rejected PASSED            [ 15%]
+tests/test_cart.py::test_negative_price_is_rejected PASSED               [ 17%]
+tests/test_cart.py::test_original_cart_total PASSED                      [ 20%]
+tests/test_cart_contract.py::test_total_uses_explicit_half_even_rounding[half_even_round_down] PASSED [ 22%]
+tests/test_cart_contract.py::test_total_uses_explicit_half_even_rounding[half_even_round_up] PASSED [ 24%]
+tests/test_cart_contract.py::test_total_uses_explicit_half_even_rounding[round_after_summing] PASSED [ 26%]
+tests/test_cart_contract.py::test_generator_input_is_supported PASSED    [ 28%]
+tests/test_cart_contract.py::test_calculation_does_not_modify_input PASSED [ 31%]
+tests/test_cart_edge_cases.py::test_missing_unit_price_is_rejected PASSED [ 33%]
+tests/test_cart_edge_cases.py::test_missing_quantity_is_rejected PASSED  [ 35%]
+tests/test_cart_edge_cases.py::test_boolean_quantity_is_rejected PASSED  [ 37%]
+tests/test_cart_edge_cases.py::test_nan_price_is_rejected PASSED         [ 40%]
+tests/test_cart_edge_cases.py::test_zero_price_is_allowed PASSED         [ 42%]
+tests/test_validators.py::test_is_phone_number[valid_phone] PASSED       [ 44%]
+tests/test_validators.py::test_is_phone_number[another_valid_phone] PASSED [ 46%]
+tests/test_validators.py::test_is_phone_number[too_short_10_digits] PASSED [ 48%]
+tests/test_validators.py::test_is_phone_number[too_long_12_digits] PASSED [ 51%]
+tests/test_validators.py::test_is_phone_number[wrong_first_digit] PASSED [ 53%]
+tests/test_validators.py::test_is_phone_number[contains_letter] PASSED   [ 55%]
+tests/test_validators.py::test_is_phone_number[contains_space] PASSED    [ 57%]
+tests/test_validators.py::test_is_phone_number[fullwidth_digits] PASSED  [ 60%]
+tests/test_validators.py::test_is_phone_number[mixed_non_ascii_digits] PASSED [ 62%]
+tests/test_validators.py::test_is_phone_number[empty_string] PASSED      [ 64%]
+tests/test_validators.py::test_is_phone_number[none_input] PASSED        [ 66%]
+tests/test_validators.py::test_is_phone_number[integer_input] PASSED     [ 68%]
+tests/test_validators.py::test_is_phone_number[boolean_input] PASSED     [ 71%]
+tests/test_validators.py::test_is_password_valid[minimum_length_8] PASSED [ 73%]
+tests/test_validators.py::test_is_password_valid[maximum_length_20] PASSED [ 75%]
+tests/test_validators.py::test_is_password_valid[below_minimum_length_7] PASSED [ 77%]
+tests/test_validators.py::test_is_password_valid[above_maximum_length_21] PASSED [ 80%]
+tests/test_validators.py::test_is_password_valid[missing_digit] PASSED   [ 82%]
+tests/test_validators.py::test_is_password_valid[missing_letter] PASSED  [ 84%]
+tests/test_validators.py::test_is_password_valid[missing_ascii_digit] PASSED [ 86%]
+tests/test_validators.py::test_is_password_valid[missing_ascii_letter] PASSED [ 88%]
+tests/test_validators.py::test_is_password_valid[special_character_allowed] PASSED [ 91%]
+tests/test_validators.py::test_is_password_valid[space_allowed_by_current_rule] PASSED [ 93%]
+tests/test_validators.py::test_is_password_valid[empty_string] PASSED    [ 95%]
+tests/test_validators.py::test_is_password_valid[none_input] PASSED      [ 97%]
+tests/test_validators.py::test_is_password_valid[integer_input] PASSED   [100%]
+
+------- generated xml file: F:\000\26 10 02 Step08\artifacts\tests.xml --------
+============================= 45 passed in 0.20s ==============================
+
+Exit code: 0

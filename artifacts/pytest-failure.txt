@@ -1,0 +1,22 @@
+> python -m pytest examples/failure_example.py -v --color=no --tb=short
+
+============================= test session starts =============================
+platform win32 -- Python 3.14.4, pytest-9.1.1, pluggy-1.6.0 -- F:\000\26 10 02 Step08\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: F:\000\26 10 02 Step08
+configfile: pytest.ini
+collecting ... collected 1 item
+
+examples/failure_example.py::test_wrong_expected_total FAILED            [100%]
+
+================================== FAILURES ===================================
+__________________________ test_wrong_expected_total __________________________
+examples\failure_example.py:15: in test_wrong_expected_total
+    assert actual == Decimal("16.00")
+E   AssertionError: assert Decimal('16.50') == Decimal('16.00')
+E    +  where Decimal('16.00') = Decimal('16.00')
+=========================== short test summary info ===========================
+FAILED examples/failure_example.py::test_wrong_expected_total - AssertionErro...
+============================== 1 failed in 0.15s ==============================
+
+Exit code: 1
